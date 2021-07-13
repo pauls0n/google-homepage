@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #ffffff;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+.google-header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.google-header ul li a {
+  font-size: 1.3rem;
+  color: #000000;
+}
+
+.google-header ul li a .icon {
+  width: 4rem;
+  padding: 8px;
+}
+
+.google-header ul li a .icon:hover {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+.google-header ul li a .profile {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.google-header ul li a .profile:hover {
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.07);
+}
+
+.google-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.google-main form {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+}
+
+.google-main form #g-search {
+    border: none;
+    font-size: 1.6rem;
+}
+
+.google-main form img {
+    color: rgba(0, 0, 0, 0.07);
+}
+
+.google-main form label {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+.google-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.google-footer .top,
+.google-footer .bottom {
+  padding: 1.5rem 2.5rem;
+  background-color: #f2f2f2;
+}
+
+.google-footer .top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.google-footer .top p,
+.google-footer .footer-nav ul li a {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.google-footer .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.google-footer .footer-nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}

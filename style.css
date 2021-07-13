@@ -89,20 +89,20 @@ body {
 }
 
 .google-main form {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
-    padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
 }
 
 .google-main form #g-search {
-    border: none;
-    font-size: 1.6rem;
+  border: none;
+  font-size: 1.6rem;
 }
 
 .google-main form img {
-    color: rgba(0, 0, 0, 0.07);
+  color: rgba(0, 0, 0, 0.07);
 }
 
 .google-main form label {
